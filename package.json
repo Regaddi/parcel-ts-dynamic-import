@@ -1,0 +1,15 @@
+{
+  "name": "parcel-ts-dynamic-import",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Regaddi/parcel-ts-dynamic-import.git",
+  "author": "Christian Stuff <cstuff@lyska.io>",
+  "license": "MIT",
+  "scripts": {
+    "build:production": "NODE_ENV=production parcel build index.ts"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0",
+    "typescript": "^3.3.3333"
+  }
+}
